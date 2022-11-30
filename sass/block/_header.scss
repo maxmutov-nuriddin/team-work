@@ -1,0 +1,75 @@
+.heder-div3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-div {
+  margin-bottom: 15px;
+  margin-top: 18px;
+}
+
+.header-ul {
+  text-decoration: none;
+  display: flex;
+}
+
+.header-li {
+  margin-left: 30px;
+  list-style-type: none;
+}
+
+.header-a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+/* ======================================================================== */
+.title {
+  margin: 0;
+}
+
+.title-inner {
+  margin: 40px 0 40px 143px;
+}
+
+.hous {
+  background-image: url('../img/Rectangle\ 4.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+}
+
+.home {
+  background-image: url('../img/Rectangle\ 16.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+
+}
+
+.room {
+  background-image: url('../img/Rectangle\ 15.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+
+}
+
+@media only screen and (max-width:420px) {
+  .title-inner {
+    margin: 40px 0 40px 0px;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width:540px) {
+  .title-inner {
+    margin: 40px 0 40px 10px;
+  }
+
+}

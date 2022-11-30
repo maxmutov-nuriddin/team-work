@@ -1,0 +1,20 @@
+@media only screen and (max-width:755px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .list {
+    justify-content: center;
+  }
+
+  .cont-text {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.boxx {
+  height: 1px;
+  background-color: yellow;
+}
