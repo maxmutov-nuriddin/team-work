@@ -1,0 +1,38 @@
+.seasons-title{
+  font-weight: 600;
+font-size: 46px;
+line-height: 63px;
+color: #424242;
+}
+
+.seasons-box{
+width: 360px;
+padding: 28px;
+}
+
+
+
+
+
+@media only screen and (max-width:576px) {
+  .seasons-box{
+  width: 320px;
+  }
+}
+
+
+.hotels-text{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #424242;
+}
+
+.hotel-color{
+background-color: #AEA38B;
+padding: 130px 0;
+}
+
+.hotel-box{
+padding-top: 35px;
+}
